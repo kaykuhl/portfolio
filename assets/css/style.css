@@ -15,17 +15,17 @@
 .navbar {
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    background: rosybrown;
+    font-size: 17px; 
+
 }
 
 a {
-    color: purple;
+    color: #373B44;
 }
 
 h1 {
     font-size: 25px;
-    color: #ffffff;
+    color: #73C8A9;
 }
 
 /* HTML CSS  */
@@ -38,14 +38,16 @@ html {
 /* body CSS */
 
 body {
-    background-image: url("../images/vintage-concrete.png");
-    background-repeat: repeat;
+    background: #73C8A9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     margin-bottom: 60px;
     width: 100%;
     margin: auto;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+    color: #73C8A9;
     line-height: 25px;
     font-size: 17px;
 }
@@ -54,19 +56,19 @@ body {
 /* section CSS*/
 .container {
     margin: auto;
-    background: #ffffff;
+    background: #373B44;
     width: 100%;
     padding: 40px;
-    background: #ffffff;
-    border: #dddddd solid 2px;
+    /* border: #dddddd solid 2px; */
     position: relative;
     top: 30px;
     text-align: center;
+    border-radius: 25px;
 
 }
 
 h2 {
-    color: palevioletred;
+    color: #73C8A9;
     border-bottom: #cccccc solid 2px;
     height: 50px;
     font-size: 25px;
@@ -77,7 +79,14 @@ footer {
     text-align: center;
     clear: both;
     margin-top: 50px;
-    background: rosybrown; 
-    vertical-align: center;
+    padding-top: 10px;
   }
 
+  .icon {
+      height: 20px;
+      /* background: white; */
+  }
+
+.container-link {
+    color: white;
+}
