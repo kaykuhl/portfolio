@@ -16,7 +16,6 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px; 
-
 }
 
 a {
@@ -26,6 +25,7 @@ a {
 h1 {
     font-size: 25px;
     color: #73C8A9;
+    font-family: 'Homemade Apple', cursive;
 }
 
 /* HTML CSS  */
@@ -41,12 +41,11 @@ body {
     background: #73C8A9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    font-family: 'Source Sans Pro', sans-serif;
     margin-bottom: 60px;
     width: 100%;
     margin: auto;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     color: #73C8A9;
     line-height: 25px;
     font-size: 17px;
@@ -58,10 +57,10 @@ body {
     margin: auto;
     background: #373B44;
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     /* border: #dddddd solid 2px; */
     position: relative;
-    top: 30px;
+    top: 5px;
     text-align: center;
     border-radius: 25px;
 
@@ -72,6 +71,7 @@ h2 {
     border-bottom: #cccccc solid 2px;
     height: 50px;
     font-size: 25px;
+    font-family: 'Homemade Apple', cursive;
 }
 
 footer {
@@ -98,3 +98,5 @@ footer {
     text-align: center;
     vertical-align: middle;
 }
+
+
