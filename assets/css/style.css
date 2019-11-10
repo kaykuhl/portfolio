@@ -90,8 +90,8 @@ footer {
     vertical-align: middle;
 }
 
-.list-group-item {
-    color: white;
+.list-group {
+    background-color: #73C8A9;
 }
 
 .project-div {
@@ -99,3 +99,15 @@ footer {
     padding-bottom: 30px
 }
 
+.portfolio-btn {
+    margin: 5px;
+}
+
+h5 {
+    color: #373B44;
+    font-weight: 800;
+}
+
+.card {
+    height: 100%;
+}
