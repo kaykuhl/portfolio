@@ -11,5 +11,6 @@ This is a responsive portfolio that provides contact information, portfolio proj
 - Bootstrap
 - Animate.css
 
-##Screenshots
+##Screenshot
+
 ![Sample of page](assets/images/landing-page.PNG)
