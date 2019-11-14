@@ -1,9 +1,9 @@
 /* photo CSS */
 
-#picture-of-me {
-    float: right;
-    margin: 10px;
-    overflow: hidden
+.aboutmepicture{
+    margin: 5px;
+    overflow: hidden;
+    height: 230px
 }
 
 .portfolio-image {
