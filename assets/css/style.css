@@ -111,3 +111,15 @@ h5 {
 .card {
     height: 100%;
 }
+
+.learned {
+    color: 	#505050;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.card-text {
+    border: dotted 2px #73C8A9;
+    padding: 5px;
+    color: black
+}
