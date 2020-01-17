@@ -1,125 +1,81 @@
-/* photo CSS */
-
-.aboutmepicture{
-    margin: 5px;
-    overflow: hidden;
-    height: 230px
+body {
+    background: lightgray;
+    margin: none;
+    padding: none;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
-.portfolio-image {
-    margin: 10px;
-    width: 250px;
-}
-
-/* nav bar CSS */
-.navbar {
-    /* padding: 14px 16px; */
-    /* text-decoration: none; */
-    font-size: 17px; 
+.jumbotron {
+    text-align: center;
+    height: 550px;
+    color:whitesmoke;
     background: transparent;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-a {
-    color: #373B44;
+.index-background {
+    background-image: url("../../assets/images/oil.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn {
+    margin: 2px;
+    border: steelblue 2px;
+    background: whitesmoke;
+    font-size: 15px;
+    color: black;
+}
+
+.aboutmepicture {
+    margin: 10px;
+}
+
+h1,h3 {
+    font-family: 'Shadows Into Light', cursive;
 }
 
 h1 {
-    font-size: 25px;
-    color: #73C8A9;
-    font-family: 'Homemade Apple', cursive;
-}
-
-/* body CSS */
-
-body {
-    background: #73C8A9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-bottom: 60px;
-    width: 100%;
-    margin: auto;
-    padding: 0;
-    color: #73C8A9;
-    line-height: 25px;
-    font-size: 17px;
-}
-
-
-/* section CSS*/
-.container {
-    margin: auto;
-    background: #373B44;
-    width: 100%;
-    padding: 30px;
-    position: relative;
-    top: 5px;
-    text-align: center;
-    border-radius: 25px;
+    font-size: 100px;
 }
 
 h2 {
-    color: #73C8A9;
-    border-bottom: #cccccc solid 2px;
-    height: 50px;
-    font-size: 25px;
-    font-family: 'Homemade Apple', cursive;
+    position: relative;
+    margin-top: 20px;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
-footer {
-    height: 75px;
+#about-me-text, #portfolio-text {
     text-align: center;
-    clear: both;
-    margin-top: 50px;
-    padding-top: 10px;
-  }
-
-  .icon {
-      height: 20px;
-  }
-
-.container-link {
-    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
 }
 
-.circle-icon {
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    text-align: center;
-    vertical-align: middle;
+#portfolio-text {
+    background-color: peru;
 }
 
-.list-group {
-    background-color: #73C8A9;
-}
 
-.project-div {
-    padding-top: 30px;
-    padding-bottom: 30px
-}
-
-.portfolio-btn {
-    margin: 5px;
+.portfolio-image {
+    width: 350px;
+    margin: 20px
 }
 
 h5 {
-    color: #373B44;
-    font-weight: 800;
+    margin-top: 5px;
+    font-size: 25px;
 }
 
-.card {
-    height: 100%;
-}
-
-.learned {
-    color: 	#505050;
-    font-size: 15px;
-    font-style: italic;
-}
-
-.card-text {
-    border: dotted 2px #73C8A9;
-    padding: 5px;
-    color: black
+.summary {
+    
+    background-color: skyblue;
+    font-size: 20px;
+    padding: 15px
 }

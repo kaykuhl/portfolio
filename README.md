@@ -3,14 +3,9 @@
 ## Description
 Link to Application [here](https://kaykuhl.github.io/portfolio)
 
-This is a responsive portfolio that provides contact information, portfolio projects, and an about me page for Kayla Kuhlman.
+This is a responsive portfolio that provides contact information, portfolio projects, and an about me for Kayla Kuhlman.
 
 ## Technology
 - HTML
 - CSS
 - Bootstrap
-- Animate.css
-
-##Screenshot
-
-![Sample of page](assets/images/landing-page.PNG)
