@@ -9,7 +9,7 @@ body {
 
 .jumbotron {
     text-align: center;
-    height: 550px;
+    height: 400px;
     color:whitesmoke;
     background: transparent;
     font-family: 'Roboto', sans-serif;
@@ -56,6 +56,10 @@ h2 {
     margin: 20px;
     padding: 10px;
     font-size: 15px;
+    border-top-right-radius:15px;
+border-top-left-radius:15px;
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
 }
 
 #portfolio-text {
@@ -65,7 +69,7 @@ h2 {
 
 .portfolio-image {
     width: 350px;
-    margin: 20px
+    margin: 0
 }
 
 h5 {
