@@ -5,7 +5,6 @@ import phoneimg from "../../images/phone.png";
 import pdfimg from "../../images/pdf.png";
 import lnimg from "../images/linked in.png";
 import ghimg from "../../images/githubicon.png";
-import resume from "../../resume.pdf"
 
 function Contact(props) {
     return (
@@ -18,7 +17,7 @@ function Contact(props) {
                     <a className="btn" href="tel:612-720-4675" role="button">
                         <img alt="phone icon" src={phoneimg} style={{ width: 20 + "px" }} /> 612-720-4675</a>
                     <br />
-                    <a className="btn" href={resume} target="_blank" role="button">
+                    <a className="btn" href="https://docs.google.com/document/d/1AaVl1wz6DNolzdsYsljxRtyPY-k8bx0qR8Som7wFauc/edit?usp=sharing" target="_blank" role="button">
                         <img alt="pdf icon" src={pdfimg} style={{ width: 20 + "px" }} /> Resume</a>
                     <br />
                     <a className="btn" href="https://www.linkedin.com/in/kaykuhl/" target="_blank" role="button">
