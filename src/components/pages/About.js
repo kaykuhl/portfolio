@@ -21,11 +21,11 @@ function About() {
                     When I am not coding, I enjoy traveling, rock climbing, playing board games, and hanging out with my Siberian cat, Kronk.
     </p>
                 <p>
-                    <img src={"../../images/me.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={"../../images/travel-headshot.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={"../../images/headshot.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={"../../images/travel.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={"../../images/kronk.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"./me.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"./images/travel-headshot.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"images/headshot.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"travel.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"../images/kronk.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
                 </p>
             </div>
 
