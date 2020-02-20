@@ -1,5 +1,11 @@
 import React from "react";
 import '../../style.css';
+import htmlicon from "../../images/html-icon.png"
+import cssicon from "../../images/css-icon.png"
+import jsicon from "../../images/js-icon.png"
+import reacticon from "../../images/react-icon.png"
+import desktopicon from "../../images/desktop-icon.png"
+import phoneicon from "../../images/responsive-icon.png"
 
 function Skills() {
 
@@ -24,12 +30,12 @@ function Skills() {
                         Git <br />
                         Heroku <br />
 
-                    <img src={"../../images/html-icon.png"} style={{width: 100 + "px"}}></img>
-                    <img src={"../../images/css-icon.png"} style={{width: 100 + "px"}}></img>
-                    <img src={"../../images/js-icon.png"} style={{width: 100 + "px"}}></img>
-                    <img src={"../../images/react-icon.png"} style={{width: 100 + "px"}}></img>
-                    <img src={"../../images/desktop-icon.png"} style={{width: 100 + "px"}}></img>
-                    <img src={"../../images/responsive-icon.png"} style={{width: 100 + "px"}}></img>
+                    <img src={htmlicon} style={{width: 100 + "px"}}></img>
+                    <img src={cssicon} style={{width: 100 + "px"}}></img>
+                    <img src={jsicon} style={{width: 100 + "px"}}></img>
+                    <img src={reacticon} style={{width: 100 + "px"}}></img>
+                    <img src={desktopicon} style={{width: 100 + "px"}}></img>
+                    <img src={phoneicon} style={{width: 100 + "px"}}></img>
             </div>
 
         </div>
