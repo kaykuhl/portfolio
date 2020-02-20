@@ -1,12 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import { Nav } from 'react-bootstrap'
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <div className="jumbotron" style={{height: 50 + "%", marginBottom: 0 + "px", paddingBottom: 0 + "px"}}>
+         <h1>Kayla Ann Kuhlman</h1>
+                <h3>Full-Stack Web Developer</h3>
+
+
+
+    <ul className="nav">
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
-          Home
+          Portfolio
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/skills"
+          className={window.location.pathname === "/skills" ? "nav-link active" : "nav-link"}
+        >
+          Skills
         </Link>
       </li>
       <li className="nav-item">
@@ -26,6 +41,9 @@ function NavTabs() {
         </Link>
       </li>
     </ul>
+
+ <hr></hr>
+    </div>
   );
 }
 
