@@ -1,10 +1,7 @@
 import React from "react";
 import '../../style.css';
-import img1 from "../../images/me.jpg"
-import img2 from "../../images/travel-headshot.jpg"
-import img3 from "../../images/headshot.jpg"
-import img4 from "../../images/travel.jpg"
-import img5 from "../../images/kronk.jpg"
+
+
 
 function About() {
 
@@ -26,11 +23,11 @@ function About() {
                     When I am not coding, I enjoy traveling, rock climbing, playing board games, and hanging out with my Siberian cat, Kronk.
     </p>
                 <p>
-                    <img src={img1} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={img2} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={img3} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={img4} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
-                    <img src={img5} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"/portfolio/images/me.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"/portfolio/images/travel-headshot.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"/portfolio/images/headshot.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"/portfolio/images/travel.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
+                    <img src={"/portfolio/images/kronk.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
                 </p>
             </div>
 
