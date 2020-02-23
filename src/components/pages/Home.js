@@ -70,7 +70,7 @@ function Home() {
             <a href="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/04-quiz-game" target="_blank" className="btn btn-primary portfolio-btn">View Repository on GitHub</a>
           </div>
         </div>
-      </div><div className="row" style={{textAlign: "center"}}>
+      </div><div className="row" style={{alignItems: "center", textAlign: "center", alignContent: "center"}}>
         <br></br><br></br>
         <a href="https://github.com/kaykuhl/kaykuhl.github.io" target="_blank" className="btn btn-primary portfolio-btn">View my U of M BootCamp Repo</a>
       </div>
