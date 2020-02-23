@@ -36,7 +36,7 @@ function Skills() {
                 <img src={"/portfolio/images/desktop-icon.png"} style={{ width: 100 + "px" }}></img>
                 <img src={"/portfolio/images/responsive-icon.png"} style={{ width: 100 + "px" }}></img>
 
-
+<br></br>
                 <h2>Professional Background</h2>
 
 
@@ -44,13 +44,11 @@ function Skills() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="Today"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        // icon={<StarIcon />}
+                        icon={<StarIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Open for Opportunities</h3>
+                        <h3 className="vertical-timeline-element-title">Open to Opportunities</h3>
                         <h4 className="vertical-timeline-element-subtitle">Looking for a job in Web Development!</h4>
                         <p></p>
                     </VerticalTimelineElement>
@@ -59,11 +57,9 @@ function Skills() {
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
-                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="September 2019 - March 2020"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        // icon={<SchoolIcon />}
+                        icon={<SchoolIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">U of M Coding Bootcamp</h3>
                         <h4 className="vertical-timeline-element-subtitle">Attended Part Time U of M Trilogy Full-Stack Coding Bootcamp in St. Paul, MN</h4>
@@ -76,7 +72,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         className="vertical-timeline-element--work"
                         date="November 2018 - Present"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        // icon={<WorkIcon />}
+                        icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Analytical Chemist II</h3>
                         <h4 className="vertical-timeline-element-subtitle">Minnesota Department of Transportation in Maplewood, MN</h4>
@@ -89,7 +85,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         className="vertical-timeline-element--work"
                         date="May 2014 - November 2018"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        // icon={<WorkIcon />}
+                        icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Quality Manager/Chemist</h3>
                         <h4 className="vertical-timeline-element-subtitle">Dyne Fire Protection Labs in Woodbury, MN</h4>
@@ -101,7 +97,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         className="vertical-timeline-element--education"
                         date="August 2010 - May 2014"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        // icon={<SchoolIcon />}
+                        icon={<SchoolIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Winona State University</h3>
                         <h4 className="vertical-timeline-element-subtitle">Obtained Bachelor's Degree in Chemistry at Winona State in Winona, MN</h4>
