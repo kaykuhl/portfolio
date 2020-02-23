@@ -1,6 +1,6 @@
 import React from "react";
 import '../../style.css';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement, StarIcon} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 
@@ -48,7 +48,7 @@ function Skills() {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="Today"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        // icon={<StarIcon />}
+                        icon={<StarIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Looking for a Job in Web Development!</h3>
                         <h4 className="vertical-timeline-element-subtitle">Twin Cities, MN</h4>
