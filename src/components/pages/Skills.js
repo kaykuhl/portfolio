@@ -48,7 +48,7 @@ function Skills() {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="Today"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<StarIcon />}
+                        // icon={<StarIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Looking for a Job in Web Development!</h3>
                         <h4 className="vertical-timeline-element-subtitle">Twin Cities, MN</h4>
@@ -63,7 +63,7 @@ function Skills() {
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
                         date="September 2019 - March 2020"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<SchoolIcon />}
+                        // icon={<SchoolIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Attended Part Time U of M Trilogy Full-Stack Coding BootCamp</h3>
                         <h4 className="vertical-timeline-element-subtitle">St. Paul, MN</h4>
@@ -76,7 +76,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         className="vertical-timeline-element--work"
                         date="November 2018 - Present"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<WorkIcon />}
+                        // icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Analytical Chemist II</h3>
                         <h4 className="vertical-timeline-element-subtitle">Minnesota Department of Transportation</h4>
@@ -89,7 +89,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         className="vertical-timeline-element--work"
                         date="May 2014 - November 2018"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<WorkIcon />}
+                        // icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Quality Manager/Chemist</h3>
                         <h4 className="vertical-timeline-element-subtitle">Dyne Fire Protection Labs</h4>
@@ -101,7 +101,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         className="vertical-timeline-element--education"
                         date="August 2010 - May 2014"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<SchoolIcon />}
+                        // icon={<SchoolIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Obtained Bachelor's Degree in Chemistry at Winona State</h3>
                         <h4 className="vertical-timeline-element-subtitle">Winona, MN</h4>
