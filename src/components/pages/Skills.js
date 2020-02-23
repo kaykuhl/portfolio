@@ -50,8 +50,8 @@ function Skills() {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         // icon={<StarIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Looking for a Job in Web Development!</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Twin Cities, MN</h4>
+                        <h3 className="vertical-timeline-element-title">Open for Opportunities</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Looking for a job in Web Development!</h4>
                         <p></p>
                     </VerticalTimelineElement>
 
@@ -65,8 +65,8 @@ function Skills() {
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         // icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Attended Part Time U of M Trilogy Full-Stack Coding BootCamp</h3>
-                        <h4 className="vertical-timeline-element-subtitle">St. Paul, MN</h4>
+                        <h3 className="vertical-timeline-element-title">U of M Coding Bootcamp</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Attended Part Time U of M Trilogy Full-Stack Coding Bootcamp in St. Paul, MN</h4>
                         <p>
                             Learned the MERN stack and built applications using HTML5, CSS3, JavaScript, jQuery, Node. js,
 Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, and more.    </p>
@@ -79,7 +79,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         // icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Analytical Chemist II</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Minnesota Department of Transportation</h4>
+                        <h4 className="vertical-timeline-element-subtitle">Minnesota Department of Transportation in Maplewood, MN</h4>
                         <p>
                             Highlights: Provided quality testing for the State of Minnesota and built short-term Access Databases for
                             several labs for temporary use during lab results database transistion period.
@@ -92,7 +92,7 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         // icon={<WorkIcon />}
                     >
                         <h3 className="vertical-timeline-element-title">Quality Manager/Chemist</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Dyne Fire Protection Labs</h4>
+                        <h4 className="vertical-timeline-element-subtitle">Dyne Fire Protection Labs in Woodbury, MN</h4>
                         <p>
                             Highlights: Managed ISO 9001 Quality Management System for company of 12 employees, Used Access Database to query results and complete data analysis (R&R Studies), Set-Up New Testing Services, Led Management Review Meetings
     </p>
@@ -103,8 +103,8 @@ Responsive Design, Heroku, Git, User Authentication, React. js, MySQL, MongoDB, 
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         // icon={<SchoolIcon />}
                     >
-                        <h3 className="vertical-timeline-element-title">Obtained Bachelor's Degree in Chemistry at Winona State</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Winona, MN</h4>
+                        <h3 className="vertical-timeline-element-title">Winona State University</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Obtained Bachelor's Degree in Chemistry at Winona State in Winona, MN</h4>
                         <p>
                             Research: “Targeting Molecules using Imprint Polymers on Magnetic Particles for Water Treatment" and I presented research at 2014 ACS meeting in Dallas, Texas.
     </p>
