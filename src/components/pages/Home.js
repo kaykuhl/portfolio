@@ -12,7 +12,7 @@ function Home() {
           <div className="card">
             <h5>Pika-Choose! - Group Project #2</h5>
             <img src={"/portfolio/images/pokemon.jpg"} className="portfolio-image" alt="Pika-Choose Application"></img>
-            <p>Description: Works as a team buidler for Pokemon teams using a SQL database.</p>
+            <p>Description: Works as a team builder for Pokemon teams using a mySQL database.</p>
             <p><i>Skills Strengthened: mySQL, handlebars, Heroku Deployment, GitHub</i></p>
             <p>Contributions: Frontend development (HTML, JS, CSS), Handlebars, Heroku Deployment, Design</p>
             <a href="https://protected-spire-30180.herokuapp.com/" target="_blank" className="btn btn-primary portfolio-btn">View Project</a>
@@ -54,7 +54,7 @@ function Home() {
           <div className="card">
             <h5>Weather Dashboard Application</h5>
             <img src={"/portfolio/images/weather-dashbaord.png"} className="portfolio-image" alt="Weather Dashboard Application"></img>
-            <p>Description: Displays the current weather and 5-day forcast of a searched city</p>
+            <p>Description: Displays the current weather and 5-day forecast of a searched city</p>
             <p><i>Skills Strengthened: API/AJAX Calls, On-click Events, Local Storage</i></p>
             <a href="https://kaykuhl.github.io/06-weather-dashboard" target="_blank" className="btn btn-primary portfolio-btn">View Project</a>
             <a href="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/06-weather-dashboard" target="_blank" className="btn btn-primary portfolio-btn">View Repository on GitHub</a>
