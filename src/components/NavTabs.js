@@ -10,7 +10,7 @@ function NavTabs() {
 
 
 
-    <ul className="nav">
+    <ul className="nav" style={{contentAlign: "center"}}>
       <li className="nav-item">
         <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
           Portfolio
