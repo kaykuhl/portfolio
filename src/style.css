@@ -23,10 +23,10 @@ body {
 
 .btn {
     margin: 2px;
-    background: lightsalmon;
-    border: lightsalmon 1px solid;
+    background: gray;
+    border: gray 1px solid;
     font-size: 15px;
-    color: black;
+    color: white;
 }
 
 .aboutmepicture {
@@ -91,3 +91,10 @@ h5 {
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
+.navbar .navbar-nav {
+    /* display: inline-block; */
+    vertical-align: top;
+    float: none;
+    font-size: 20px;
+  }

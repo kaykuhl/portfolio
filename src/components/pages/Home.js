@@ -55,8 +55,8 @@ function Home() {
             description="Allows users to both sort and filter a list of employees using React.js components."
             skills="React, Firebase Deployment"
             comments="Assignment part of the U of M Coding Bootcamp"
-            deployedURL="https://kaykuhl.github.io/kaykuhl.github.io/tree/master/16-react-employee-search"
-            repoURL="https://employee-react-app.firebaseapp.com/"
+            deployedURL="https://employee-react-app.firebaseapp.com/"
+            repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/16-react-employee-search"
           />
 
           <ProjectCard
