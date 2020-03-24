@@ -15,8 +15,8 @@ function Home() {
             description="Tool for parents/caretakers and children to manage chores and transactions."
             skills="React, mySQL, Authentication, Heroku Deployment"
             comments="Group Project #3 for the U of M Coding Bootcamp - Contributions: JavaScript Logic, API/AJAX Calls, Back-end Development, mySQL Database Schema, Heroku Deployment, Helped with CSS"
-            deployedURL=""
-            repoURL=""
+            deployedURL="https://nuggets-2020.herokuapp.com/"
+            repoURL="https://github.com/kaykuhl/nuggets"
           />
 
           <ProjectCard
@@ -25,8 +25,8 @@ function Home() {
             description="PWA Tool to track travel itineraries."
             skills="Angular, Ionic Framwork, Firebase, PWAs"
             comments="Personal Project - Built to gain experience with Ionic Angular Frameworks."
-            deployedURL=""
-            repoURL=""
+            deployedURL="https://travelideas-b8f56.firebaseapp.com/home"
+            repoURL="https://github.com/kaykuhl/travel-ideas"
           />
         </div><div className="row">
           <ProjectCard
