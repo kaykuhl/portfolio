@@ -93,8 +93,5 @@ h5 {
 }
 
 .navbar .navbar-nav {
-    /* display: inline-block; */
-    vertical-align: top;
-    float: none;
     font-size: 20px;
   }
