@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { Nav } from 'react-bootstrap'
+// import { Navbar, NavDropdown } from 'react-bootstrap'
 
 function NavTabs() {
   return (
@@ -17,32 +17,32 @@ function NavTabs() {
         <img alt="github icon" src={"/portfolio/images/githubicon.png"} style={{ width: 20 + "px" }} /> GitHub</a>
 
       <hr></hr>
-      <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-                  Portfolio
+
+
+
+      <nav className="navbar navbar-expand-sm navbar-light bg-transparent">
+        <div id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+                Portfolio
         </Link>      </li>
-              <li className="nav-item">
-                <Link
-                  to="/skills"
-                  className={window.location.pathname === "/skills" ? "nav-link active" : "nav-link"}
-                >
-                  Skills
+            <li className="nav-item">
+              <Link
+                to="/skills"
+                className={window.location.pathname === "/skills" ? "nav-link active" : "nav-link"}
+              >
+                Skills
         </Link>      </li>
-              <li className="nav-item">
-                <Link
-                  to="/about"
-                  className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-                >
-                  About
+            <li className="nav-item">
+              <Link
+                to="/about"
+                className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
+              >
+                About
         </Link>      </li>
-            </ul>
-          </div>
+          </ul>
+        </div>
       </nav>
 
     </div>
