@@ -20,16 +20,6 @@ function Home() {
           />
 
           <ProjectCard
-            title="Travel Ideas"
-            imgURL="/portfolio/images/travel-app.jpg"
-            description="PWA Tool to track travel itineraries."
-            skills="Angular, Ionic Framwork, Firebase, PWAs"
-            comments="Personal Project - Built to gain experience with Ionic Angular Frameworks."
-            deployedURL="https://travelideas-b8f56.firebaseapp.com/home"
-            repoURL="https://github.com/kaykuhl/travel-ideas"
-          />
-        </div><div className="row">
-          <ProjectCard
             title="Pika-Choose!"
             imgURL="/portfolio/images/pokemon.jpg"
             description="Works as a team builder for Pokemon teams using a mySQL database."
@@ -39,6 +29,8 @@ function Home() {
             repoURL="https://github.com/ZanderMate/teamikea"
           />
 
+
+        </div><div className="row">
           <ProjectCard
             title="Global Eats"
             imgURL="/portfolio/images/project.png"
@@ -48,8 +40,7 @@ function Home() {
             deployedURL="https://kaykuhl.github.io/project-1/html"
             repoURL="https://github.com/kaykuhl/project-1"
           />
-        </div><div className="row">
-          <ProjectCard
+                    <ProjectCard
             title="React Employee Search Application"
             imgURL="/portfolio/images/employee-search.jpg"
             description="Allows users to both sort and filter a list of employees using React.js components."
@@ -58,6 +49,8 @@ function Home() {
             deployedURL="https://employee-react-app.firebaseapp.com/"
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/16-react-employee-search"
           />
+        </div><div className="row">
+
 
           <ProjectCard
             title="Weather Dashboard"
@@ -69,7 +62,7 @@ function Home() {
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/06-weather-dashboard"
           />
 
-        </div><div className="row">
+       
           <ProjectCard
             title="Quiz Game"
             imgURL="/portfolio/images/quiz-game.png"
@@ -79,7 +72,7 @@ function Home() {
             deployedURL="https://kaykuhl.github.io/04-quiz-game"
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/04-quiz-game"
           />
-        </div></div>
+        </div>
     </div>
   );
 }
