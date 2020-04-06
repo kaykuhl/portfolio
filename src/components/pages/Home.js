@@ -41,18 +41,6 @@ function Home() {
             repoURL="https://github.com/kaykuhl/project-1"
           />
                     <ProjectCard
-            title="React Employee Search Application"
-            imgURL="/portfolio/images/employee-search.jpg"
-            description="Allows users to both sort and filter a list of employees using React.js components."
-            skills="React, Firebase Deployment"
-            comments="Assignment part of the U of M Coding Bootcamp"
-            deployedURL="https://employee-react-app.firebaseapp.com/"
-            repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/16-react-employee-search"
-          />
-        </div><div className="row">
-
-
-          <ProjectCard
             title="Weather Dashboard"
             imgURL="/portfolio/images/weather-dashbaord.png"
             description="Displays the current weather and 5-day forecast of a searched city"
@@ -62,7 +50,8 @@ function Home() {
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/06-weather-dashboard"
           />
 
-       
+        </div><div className="row">
+
           <ProjectCard
             title="Quiz Game"
             imgURL="/portfolio/images/quiz-game.png"
@@ -73,6 +62,7 @@ function Home() {
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/04-quiz-game"
           />
         </div>
+    </div>
     </div>
   );
 }
