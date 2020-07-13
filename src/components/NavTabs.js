@@ -13,36 +13,6 @@ function NavTabs() {
         <img alt="linkedin icon" src={"/portfolio/images/linked in.png"} style={{ width: 20 + "px" }} /> LinkedIn</a>
       <a className="btn" href="https://www.github.com/kaykuhl" target="_blank" role="button">
         <img alt="github icon" src={"/portfolio/images/githubicon.png"} style={{ width: 20 + "px" }} /> GitHub</a>
-
-      <hr></hr>
-
-
-
-      <nav className="navbar navbar-expand-sm navbar-light bg-transparent">
-        <div id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link to="/portfolio" className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-                Portfolio
-        </Link>      </li>
-            <li className="nav-item">
-              <Link
-                to="/skills"
-                className={window.location.pathname === "/skills" ? "nav-link active" : "nav-link"}
-              >
-                Skills and Background
-        </Link>      </li>
-            <li className="nav-item">
-              <Link
-                to="/about"
-                className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-              >
-                About
-        </Link>      </li>
-          </ul>
-        </div>
-      </nav>
-
     </div>
   );
 }
