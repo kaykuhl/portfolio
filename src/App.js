@@ -14,10 +14,10 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        <Route exact path="/portfolio" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/skills" component={Skills} />
+        <Route path="/portfolio" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/skills" component={Skills} />
         <Footer />
       </div>
     </Router>
