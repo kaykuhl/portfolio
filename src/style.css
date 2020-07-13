@@ -1,9 +1,12 @@
 body {
-    margin: none;
+    margin: auto;
     padding: none;
-    width: 100%;
     font-family: 'Roboto Slab', serif;
     text-align: center;
+}
+
+.container {
+    margin: 30px;
 }
 
 .jumbotron {

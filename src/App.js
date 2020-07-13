@@ -2,9 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Skills from "./components/pages/Skills";
 import Footer from "./components/Footer"
 
 function App() {
@@ -15,9 +12,6 @@ function App() {
       <div>
         <NavTabs />
         <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/skills" component={Skills} />
         <Footer />
       </div>
     </Router>
