@@ -7,12 +7,10 @@ import 'react-vertical-timeline-component/style.min.css';
 function Home() {
 
   return (
-    <div ClassName="container">
+    <div className="container page-style">
 
       {/* Page Break */}
-      <br></br>
       <hr></hr>
-      <br></br>
 
       {/* Portfolio Section */}
       <div id="portfolio-text">
@@ -69,13 +67,40 @@ function Home() {
             deployedURL="https://kaykuhl.github.io/04-quiz-game"
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/04-quiz-game"
           />
+          
+          <ProjectCard
+            title="Dice Roller"
+            imgURL="/images/dice-roller.PNG"
+            description="Convient dice roller for my Dungeons and Dragons game, allows for different dice types and modifiers"
+            skills="Radio selector, math.random and dice roll calculation, Firebase Hosting"
+            comments="Personal Project"
+            deployedURL="https://this-is-how-i-roll.firebaseapp.com/"
+            repoURL="https://github.com/kaykuhl/dice-roller"
+          />
+
         </div>
+
+        <div className="row">
+
+<ProjectCard
+  title="Travel Ideas"
+  imgURL="/images/travel-app.jpg"
+  description="Application to aid travelers in building itinerary for their travels"
+  skills="Angular/Ionic Framework, Firebase Hosting"
+  comments="Personal Project (To become familiar with Ionic/Angular Framework), future developments include other travel-friendly components such as weather and maps"
+  deployedURL="https://travelideas-b8f56.firebaseapp.com/home"
+  repoURL="https://github.com/kaykuhl/travel-ideas"
+/>
+
+
+</div>
+
+
+        <div className="one-hundred-days"><h5>I am currently taking part in #100daysofcode, check out my progress log <a href="https://github.com/kaykuhl/100-days-of-code/blob/master/log.md">here</a>.</h5></div>
       </div>
 
       {/* Page Break */}
-      <br></br>
       <hr></hr>
-      <br></br>
 
       {/* Skills Section */}
       <div id="skills-text">
@@ -93,19 +118,19 @@ function Home() {
     React <br />
     Git <br />
     Heroku <br />
-
+<br />
         <img src={"/images/html-icon.png"} style={{ width: 100 + "px" }}></img>
         <img src={"/images/css-icon.png"} style={{ width: 100 + "px" }}></img>
         <img src={"/images/js-icon.png"} style={{ width: 100 + "px" }}></img>
         <img src={"/images/react-icon.png"} style={{ width: 100 + "px" }}></img>
         <img src={"/images/desktop-icon.png"} style={{ width: 100 + "px" }}></img>
         <img src={"/images/responsive-icon.png"} style={{ width: 100 + "px" }}></img>
-
+<br />
+<br />
       </div>
+
       {/* Page Break */}
-      <br></br>
       <hr></hr>
-      <br></br>
 
       {/* Background Section */}
       <div id="background-text">
@@ -177,26 +202,26 @@ function Home() {
 
 
       {/* Page Break */}
-      <br></br>
       <hr></hr>
-      <br></br>
 
       {/* About Me Section */}
       <div id="about-me-text">
         <h2>About Me</h2>
-        <p>Hi, thank you for clicking on my About Me Page! Let me introduce myself, I'm Kayla Kuhlman.
-        I am a full-stack web developer new to the field and a Native Minnesotan who has a lot of
+        <p>I'm Kayla Kuhlman.
+        I am a full-stack web developer new to the field and a native Minnesotan who has a lot of
         passion and curiosity for technology. </p>
         <p>
           After graduating with a BS in Chemistry from Winona State University in 2014 and holding successful roles as an
           analytical chemist and quality manager, I found a lot of passion in making changes to the laboratory databases and updating
-          documentation.  I have self-taught skills in building access databases and have been able to work with the IT departments
-          in my previous positions. When I started looking into coding languages such as JavaScript, I was blown away by the
-          possibilities.
-</p>
+          documentation.  I have self-taught skills in building access databases and have been able to become familiar with the IT departments
+          in my previous positions. I realized that I wanted to dive deaper into technology.</p>
+          <p>
+            I started to learn how to code using free online resources in early 2019, I was blown away by the possibilities. My natural problem-solving
+            skills and love for technology made coding really enjoyable and I decided I wanted to turn this passion into a career.
+          </p>
         <p>
-          In 2019, I decided to turn this passion into my career and enrolled in the U of M coding bootcamp and have been learning
-          full-stack web development.  I had a great experience doing weekly assignments (Average grade of "A") as well as
+          In late 2019, I decided to enroll in the University of Minnesota coding bootcamp where I learned
+          full-stack web development for six months.  I had a great experience doing weekly assignments (Average grade of "A") as well as
           three group projects where I took on various roles.  I have a lot of drive to continue learning and to grow in the tech
         field and I'm excited to see what 2020 has in store for me.</p>
         <p>
@@ -209,6 +234,38 @@ function Home() {
           <img src={"/images/kronk.jpg"} className="rounded aboutmepicture" style={{ height: 200 + "px" }} />
         </p>
       </div>
+
+
+      {/* Page Break */}
+      <hr></hr>
+
+      {/* About Me Section */}
+      <div className="contact-div">
+        <h2>Contact</h2>
+        <div className="contact-text">
+        <p className="contact-links">
+          Email: KaylaAnnKuhlman@gmail.com
+          <br />
+          LinkedIn: <a href="https://www.linkedin.com/in/kaykuhl/">https://www.linkedin.com/in/kaykuhl/</a>
+          <br />
+          GitHub: <a href="https://github.com/kaykuhl/">https://github.com/kaykuhl/</a>
+          <br />
+          Instagram: <a href="https://www.instagram.com/blissfullycoding/">https://www.instagram.com/blissfullycoding/</a>
+          <br />
+          Twitter: <a href="https://twitter.com/KaylaIsCoding">https://twitter.com/KaylaIsCoding</a>
+
+        </p>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
     </div>
   );
 }

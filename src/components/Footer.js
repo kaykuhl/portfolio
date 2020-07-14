@@ -7,6 +7,8 @@ function Footer() {
     <div className="footer-copyright text-center py-3">
       <MDBContainer fluid>
         &copy; {new Date().getFullYear()} Copyright: Kayla Ann Kuhlman
+        <br />
+        View the repo for my porfolio <a href="https://github.com/kaykuhl/portfolio">here</a>!
       </MDBContainer>
     </div>
   </MDBFooter>
