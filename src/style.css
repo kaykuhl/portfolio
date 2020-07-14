@@ -66,7 +66,7 @@ h5 {
 /* Page Break */
 hr {
     border: 3px solid;
-    opacity: 8%;
+    opacity: 15%;
     color: red;
     border-radius: 25px;
 }
@@ -75,7 +75,7 @@ hr {
 .blissfullycoding {
     position: relative;
     top: 125px;
-    opacity: 8%;
+    opacity: 15%;
     font-size: 100px;
     color: red;
 }
