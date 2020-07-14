@@ -66,8 +66,7 @@ h5 {
 /* Page Break */
 hr {
     border: 3px solid;
-    opacity: 15%;
-    color: red;
+    color: #FF8E8A;
     border-radius: 25px;
 }
 
@@ -75,9 +74,8 @@ hr {
 .blissfullycoding {
     position: relative;
     top: 125px;
-    opacity: 15%;
     font-size: 100px;
-    color: red;
+    color: #FF8E8A;
 }
 
 /* porfolio/project cards */
