@@ -3,7 +3,6 @@ import React from "react";
 function NavTabs() {
   return (
     <div className="jumbotron" style={{ height: 50 + "%", marginBottom: 0 + "px", paddingBottom: 0 + "px" }}>
-      <h5 className="blissfullycoding">Blissfully Coding</h5>
       <h1>Kayla Ann Kuhlman</h1>
       <h3>Full-Stack Web Developer</h3>
       <a className="btn" href="mailto:kaylaannkuhlman@gmail.com" role="button">
