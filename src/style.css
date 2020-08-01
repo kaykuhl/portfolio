@@ -16,7 +16,6 @@ body {
     height: 400px;
     color: black;
     background: transparent;
-    margin-top: -80px;
 }
 
 /* Buttons in nav links and porfolio */
@@ -68,15 +67,6 @@ hr {
     border: 3px solid;
     color: rgb(245, 217, 221);
     border-radius: 25px;
-}
-
-/* Blissfully Coding Title underneath my Name */
-.blissfullycoding {
-    position: relative;
-    top: 125px;
-    font-size: 100px;
-    color: rgb(245, 217, 221);
-    z-index: -1;
 }
 
 /* porfolio/project cards */
