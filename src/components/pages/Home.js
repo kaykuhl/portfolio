@@ -138,13 +138,14 @@ function Home() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Today"
+            date="August 2020 - Today"
             iconStyle={{ background: 'lightsalmon', color: '#fff' }}
             icon={<i className="fa fa-2x fa-star" style={{ marginTop: 7 + "px" }}></i>}
           >
-            <h3 className="vertical-timeline-element-title">Open to Opportunities</h3>
-            <h4 className="vertical-timeline-element-subtitle">Looking for a job in Web Development!</h4>
-            <p></p>
+            <h3 className="vertical-timeline-element-title">JavaScript Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">BerganKDV in Bloomington, MN</h4>
+            <p>I am currently an ERP/NetSuite JavaScript Developer and learning a lot in my first dev role. 
+            Excited for what the future brings at BerganKDV!</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
