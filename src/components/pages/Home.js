@@ -95,10 +95,6 @@ function Home() {
 
 </div>
 
-
-        <div className="one-hundred-days"><h5>I am currently taking part in #100daysofcode, check out my progress log <a href="https://github.com/kaykuhl/100-days-of-code/blob/master/log.md">here</a>.</h5></div>
-      </div>
-
       {/* Page Break */}
       <hr></hr>
 
