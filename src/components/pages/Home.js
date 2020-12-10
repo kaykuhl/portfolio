@@ -94,6 +94,7 @@ function Home() {
 
 
 </div>
+</div>
 
       {/* Page Break */}
       <hr></hr>
