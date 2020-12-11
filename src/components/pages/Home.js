@@ -16,15 +16,27 @@ function Home() {
       <div id="portfolio-text">
         <h2>Portfolio</h2>
         <div className="row">
+        <ProjectCard
+            title="Fuzzy Friend Finder"
+            imgURL="/images/fuzzy.png"
+            description="Adoption/Fostering website mock-up."
+            skills="React, mySQL, Heroku Deployment"
+            comments="Personal Group Project with Ashley Wegwerth and Haylee Thomas-Kuhlmann - Contributions: Back-end Development, mySQL Database, Adoption and Rainbow Bridge React Pages (React BootStrap)"
+            deployedURL="https://fuzzyfriendfinder.herokuapp.com/"
+            repoURL="https://github.com/haylee430/fuzzy_friend_finder"
+          />
           <ProjectCard
             title="Nuggets"
             imgURL="/images/nuggets.jpg"
             description="Tool for parents/caretakers and children to manage chores and transactions."
             skills="React, mySQL, Authentication, Heroku Deployment"
-            comments="Group Project #3 for the U of M Coding Bootcamp - Contributions: JavaScript Logic, API/AJAX Calls, Back-end Development, mySQL Database Schema, Heroku Deployment, Helped with CSS"
+            comments="Group Project #3 for the U of M Coding Bootcamp - Contributions: JavaScript Logic, API/AJAX Calls, Back-end Development, mySQL Database, Heroku Deployment, Helped with CSS"
             deployedURL="https://nuggets-2020.herokuapp.com/"
             repoURL="https://github.com/kaykuhl/nuggets"
           />
+
+</div>
+        <div className="row">
 
           <ProjectCard
             title="Pika-Choose!"
@@ -35,8 +47,7 @@ function Home() {
             deployedURL="https://protected-spire-30180.herokuapp.com/"
             repoURL="https://github.com/ZanderMate/teamikea"
           />
-        </div>
-        <div className="row">
+
           <ProjectCard
             title="Global Eats"
             imgURL="/images/project.png"
@@ -46,6 +57,7 @@ function Home() {
             deployedURL="https://kaykuhl.github.io/project-1/html"
             repoURL="https://github.com/kaykuhl/project-1"
           />
+                  </div><div className="row">
           <ProjectCard
             title="Weather Dashboard"
             imgURL="/images/weather-dashbaord.png"
@@ -56,7 +68,7 @@ function Home() {
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/06-weather-dashboard"
           />
 
-        </div><div className="row">
+
 
           <ProjectCard
             title="Quiz Game"
@@ -68,6 +80,9 @@ function Home() {
             repoURL="https://github.com/kaykuhl/kaykuhl.github.io/tree/master/04-quiz-game"
           />
           
+        </div>
+
+<div className="row">
           <ProjectCard
             title="Dice Roller"
             imgURL="/images/dice-roller.PNG"
@@ -78,9 +93,6 @@ function Home() {
             repoURL="https://github.com/kaykuhl/dice-roller"
           />
 
-        </div>
-
-        <div className="row">
 
 <ProjectCard
   title="Travel Ideas"
